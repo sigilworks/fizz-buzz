@@ -7,5 +7,6 @@
 // 113 characters
 !function(a,b,i,r){while(i<100)r=d=e=i,d%=5,e%=3,console.log([r,!d&!e?a+b:!d?b:!e?a:'']+''),++i}('fizz','buzz',1)
 
-// 109 characters, by switching strategies
+// The Google Closure Compiler (adv. mode) did this in 109 characters,
+// but I think it's an illegitimate solution, as it's just a code fragment, not a standalone function.
 for(var a=1,b;100>a;)b=d=e=a,d%=5,e%=3,console.log([b,!d&!e?'fizzbuzz':!d?'buzz':!e?'fizz':'']+''),++a
